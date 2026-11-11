@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for ECG Journal for Polar H10: setup, local recordings, exports, and experimental analysis.">
+  <title>Support | ECG Journal for Polar H10</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en-US" href="index.html">
+  <link rel="alternate" hreflang="zh-Hans" href="zh-Hans/index.html">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <a class="brand" href="index.html">ECG Journal</a>
+    <p class="compatibility">for Polar H10</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="zh-Hans/index.html" lang="zh-CN" hreflang="zh-Hans">简体中文</a>
+    </nav>
+  </header>
+  <main id="main">
+    <h1>Your ECG, stored on your phone.</h1>
+    <p class="intro">Help with recording, reviewing, and exporting ECG from a Polar H10 chest strap on iPhone.</p>
+    <aside class="notice">
+      Recording and heartbeat/PVC analysis are not a medical diagnosis or emergency monitoring service.
+      Analysis is experimental and may be inaccurate. Consult a doctor before making medical decisions.
+      Do not use this app or the support mailbox for emergencies.
+    </aside>
+    <section class="contact" aria-labelledby="contact">
+      <h2 id="contact">Contact support</h2>
+      <p><a href="mailto:ecgjournal.help@outlook.com">ecgjournal.help@outlook.com</a></p>
+      <p>Include your app build (About), iOS version, and a description of the problem.
+        If useful, include the error text with identifying details removed.
+        Please do not email raw ECG recordings, medical records, device identifiers, passwords, or verification codes.</p>
+      <p>English and Simplified Chinese inquiries are welcome.</p>
+    </section>
+    <h2>Get started</h2>
+    <ol>
+      <li>Use an iPhone running iOS 17 or later and a Polar H10 chest strap, sold separately.</li>
+      <li>Wear the strap with moistened electrodes. Allow Bluetooth access when prompted.</li>
+      <li>In Live ECG, scan for the H10 and select your device. Keep it nearby.</li>
+      <li>Open Recordings for daily coverage and replay. Stop recording before analyzing a day in PVC Analysis.</li>
+    </ol>
+    <h2>Where are my recordings?</h2>
+    <p>ECG recordings, annotations, and analysis reports are stored in the app on your phone.
+      There is no app account or developer-hosted recording service.
+      The recording directory is excluded from automatic backup. Export anything you want to keep before deleting the app.</p>
+    <h2>How do export and deletion work?</h2>
+    <p>Recordings are grouped by <strong>Los Angeles dates</strong>, not your phone's current time zone.
+      Daily export creates a ZIP containing raw recording segments, annotations, saved count reports, and a manifest.
+      Segments are grouped by their first receive time, so boundary samples may cross a date.</p>
+    <p>Delete an entire day only after reviewing the confirmation. Today's recordings and any day with an open segment
+      are protected during capture; other historical days can be exported or deleted.
+      Deleting a day also removes its saved analysis state and reports. Copies previously shared outside the app are not deleted.</p>
+    <h2>Why did the signal stop?</h2>
+    <p>Check strap contact, battery, Bluetooth permission, distance, and other apps using the sensor.
+      Reconnection is manual. Background recording can be interrupted by force quit, process termination,
+      or restart; uninterrupted recording is not guaranteed. About contains connection diagnostics.</p>
+    <h2>What do the analysis results mean?</h2>
+    <p>Results are experimental model candidates, not confirmed diagnoses. Personalized-model results do not establish
+      accuracy for other people. A 24-hour estimate assumes the same candidate rate during unrecorded or excluded time;
+      it is not a measured full-day count. Keep the app foregrounded while counting.
+      Paused work can resume if the recording, annotation, and model inputs still match.</p>
+    <p>For information about local data, exports, support email, and this website, read the <a href="privacy.html">privacy policy</a>.</p>
+  </main>
+  <footer>ECG Journal for Polar H10 is an independent app, not affiliated with or endorsed by Polar Electro.</footer>
+</body>
+</html>
